@@ -88,13 +88,11 @@ li {
 
 /* Piè di pagina */
 footer {
-   table,th,td {border: 1 px solid black;} 
-    caption{font-weight:bold; color:blue}
-    th{background-color: yellow;}
-    td{text-align:center;}
     padding: 15px;
     text-align: center;
     font-size: 14px;
     color: #526174;
-
-}
+} table, th, td {border: 1 px solid black;} 
+caption {font-weight:bold; color:blue}
+th {background-color: yellow;}
+td {text-align:center;}

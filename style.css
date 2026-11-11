@@ -80,7 +80,7 @@ li {
     background-color: #17334f;
 }
 
-/* Evidenza del collegamento quando selezionato con la tastiera */
+
 .pulsante:focus-visible {
     outline: 3px solid #b54e00;
     outline-offset: 4px;
@@ -96,3 +96,22 @@ footer {
 caption {font-weight:bold; color:blue}
 th {background-color: yellow;}
 td {text-align:center;}
+
+/* Evidenza del collegamento quando selezionato con la tastiera */
+/* Menu di navigazione */
+nav {
+    background-color: #244a73;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    /* Stile dei titoli */
+h2 {
+    color: #244a73;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
